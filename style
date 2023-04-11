@@ -1,0 +1,34 @@
+img[src="img/print-ninja-logo.png"] {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+iframe,
+img {
+  display: block;
+}
+h1,h2{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+a:hover{
+  color: rgb(255, 208, 0);
+  font-size: 200%;
+}
+a:active{
+  color: rgb(247, 0, 255);
+  font-size: 300%;
+}
+a{
+  color: rgb(126, 0, 0);
+}
+a[href^="http"]{
+  background-image: url(img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.nota strong{
+  opacity: 0.5;
+}
+p>strong:not(.nota){
+  color: red;
+}
