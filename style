@@ -1,34 +1,46 @@
-img[src="img/print-ninja-logo.png"] {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+#cabecalho {
+    padding-left: 34px;
+    background-color:#6175f0;    
+    font-size: 36px;
+    color: white;
 }
-iframe,
-img {
-  display: block;
+#cabecalho h1{
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 20px;
+    margin: 0;
 }
-h1,h2{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+#cabecalho h2{
+    font-size: 24px;
+    padding-bottom: 13px;
 }
-a:hover{
-  color: rgb(255, 208, 0);
-  font-size: 200%;
+
+#imagem-principal{
+    width: 310px;
+    float: left;
+    margin-right: 13px;
 }
-a:active{
-  color: rgb(247, 0, 255);
-  font-size: 300%;
+
+#hoje{
+    float: right;
+    margin-right:25px;
+    width: 405px;
+    background-color:#f8cef7;
+    border: solid 1px #ff56fb; 
+    padding: 20px 35px 30px 35px ;
+    text
 }
-a{
-  color: rgb(126, 0, 0);
+#hoje h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
-a[href^="http"]{
-  background-image: url(img/globo.png);
-  background-repeat: no-repeat;
-  padding-left: 20px;
+#hoje h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
-.nota strong{
-  opacity: 0.5;
-}
-p>strong:not(.nota){
-  color: red;
+
+body{
+    margin:0 0 0 0;    
 }
